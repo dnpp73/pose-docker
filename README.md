@@ -11,9 +11,7 @@ Install [XQuartz](https://www.xquartz.org)
 
 ## Configuration
 
-```
-$ xhost +
-```
+Allow network client connection in X11.app preference.
 
 
 ## Build
@@ -26,7 +24,13 @@ $ docker image build -t pose:latest .
 ## Running
 
 ```
-$ docker container run --rm --platform='linux/i386' -e 'DISPLAY=host.docker.internal:0' -v "$(pwd)/_rom:/_rom" --name pose pose:latest
+$ ./run.sh
+```
+
+and
+
+```
+$ ./down.sh
 ```
 
 
