@@ -17,7 +17,7 @@ Allow network client connection in X11.app preference.
 ## Build
 
 ```
-$ docker image build -t pose:latest .
+$ ./build.sh
 ```
 
 
