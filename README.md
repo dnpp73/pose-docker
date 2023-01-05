@@ -1,4 +1,4 @@
-# Palm OS Emulator on Docker
+# Palm OS Emulator in Docker on macOS
 
 
 Original: [https://palm2000.com/projects/HowToRunPOSEinADockerContainerOnMacOSX.php](https://palm2000.com/projects/HowToRunPOSEinADockerContainerOnMacOSX.php)
