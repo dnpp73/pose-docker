@@ -3,6 +3,8 @@
 
 Original: [https://palm2000.com/projects/HowToRunPOSEinADockerContainerOnMacOSX.php](https://palm2000.com/projects/HowToRunPOSEinADockerContainerOnMacOSX.php)
 
+![image](/image.png)
+
 
 ## Installation
 
@@ -12,6 +14,8 @@ Install [XQuartz](https://www.xquartz.org)
 ## Configuration
 
 Allow network client connection in X11.app preference.
+
+Put your Palm OS ROM Images into `_rom` directory.
 
 
 ## Build
