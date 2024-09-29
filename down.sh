@@ -4,4 +4,8 @@ set -Ceu
 
 docker container stop pose
 
-xhost -
+UNAME="$(uname)"
+
+if [ "${UNAME}" = 'Darwin' ]; then
+  xhost -
+fi
